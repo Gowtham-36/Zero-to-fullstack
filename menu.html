@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <!--meta http-equiv="X-UA-Compatible" content="IE=edge"-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lunch special</title>
+    <!---
+    <style>
+        .items{
+            color: blue;
+            font-weight: bold;
+        }
+    </style> -->
+</head>
+
+<body>
+<main>
+    <h1>Dado Tea Lunch Special</h1>
+    <p>
+        Monday through Friday
+        <br>
+        11am -- 3pm <br>
+        $9.95 plus tax <br>
+        <br>
+        Includes sandwich,snack, and drink.
+    </p>
+    <fieldset>
+        <legend>Order Information</legend>
+        <p><strong>Name</strong></p> <br>
+        <input type="text" name="Customer" placeholder="Enter Name" required/><br>
+        <label for="here">
+            <input type="radio" id="here" name="lunch" value="order"> Here
+        </label><br>
+        <label for="to go">
+            <input type="radio" id="togo" name="lunch" value="order"> To go
+        </label><br>
+    </fieldset>
+
+    <fieldset>
+        <legend>Sandwiches</legend>
+        <p><strong>Monday</strong></p>
+        <label for="sandwiches">
+        <input type="radio" id="sandwich" name="Tomato" value="menu"> Tomato Mozzarella
+        </label><br>
+        <label for="sandwiches">
+        <input type="radio" id="sandwich" name="salad" value="menu"> Chicken Salad
+        </label>
+        <p><strong>Tuesday</strong></p>
+        <label for="sandwiches">
+        <input type="radio" id="sandwich" name="Green" value="menu"> Green Salad Wrap
+        </label><br>
+        <label for="sandwiches">
+        <input type="radio" id="sandwich" name="Toto" value="menu"> Toto Wrap
+        </label>
+        <p><strong>Wednesday</strong></p>
+        <label for="sandwiches">
+        <input type="radio" id="sandwich" name="RedPepper" value="menu"> Red Pepper Hummus
+        </label><br>
+        <label for="sandwiches">
+        <input type="radio" id="sandwich" name="Roasted" value="menu"> Roasted Turkey
+        </label>
+        <p><strong>Thursday</strong></p>
+        <label for="sandwiches">
+        <input type="radio" id="sandwich" name="Hummus" value="menu"> Carrot-Ginger Hummus Wrap
+        </label><br>
+        <label for="sandwiches">
+        <input type="radio" id="sandwich" name="Egg" value="menu"> Egg Salad
+        </label>
+        <p><strong>Friday</strong></p>
+        <label for="sandwiches">
+        <input type="radio" id="sandwich" name="Dado" value="menu"> Dado Wrap
+        </label><br>
+        <label for="sandwiches">
+        <input type="radio" id="sandwich" name="Tuna" value="menu"> Tuna Wrap
+        </label><hr>
+        <label for="sandwiches">
+        <input type="checkbox" id="sandwich" name="Bread" value="menu"> Gluten Free Bread(75ȼ extra)
+        </label>
+    </fieldset>
+    
+    <fieldset>
+        <legend>Snack</legend>
+        <p><strong>Snacks</strong></p>
+        <label for="snacks">
+        <input type="radio" id="snack" name="fruit" value="menu"> Apple
+        </label><br>
+        <label for="snacks">
+        <input type="radio" id="sandwich" name="fruit" value="menu"> Banana
+        </label><br>
+        <label for="snacks">
+        <input type="radio" id="sandwich" name="vegetable" value="menu"> Potato Chips
+        </label>
+    </fieldset>
+
+    <fieldset>
+        <legend>Drink</legend>
+        <p><strong>Drinks</strong></p>
+        <select>
+                    <option value="option1">Hot Black Tea - Keemun</option>
+                    <option value="option2">Hot Black Tea - Decaf keemun</option>
+                    <option value="option3">Iced Black Tea - Keemun</option>
+                    <option value="option4">Iced Black Tea - Decaf keemun</option>
+                    <option value="option5">Hot Green Tea - Sencha</option>
+                    <option value="option6">Hot Green Tea - Decaf</option>
+                    <option value="option7">Iced Green Tea - Sencha</option>
+                    <option value="option8">Iced Green Tea - Decaf</option>
+                    <option value="option9">Hot Coffee</option>
+                    <option value="option10">Hot Decaf Coffee</option>
+                    <option value="option11">Iced Coffee</option>
+                    <option value="option12">Iced Decaf Coffee</option>
+                    <option value="option13">Bubble Tea($1.50 extra)</option>
+                    <option value="option14">Bubble Tea</option>
+        </select>
+        <hr>
+                    <label for="drinks">
+                        <input type="checkbox" id="drink" name="large drink" value="menu"> Large Drink(75ȼ extra)
+                    </label>
+
+    </fieldset>
+
+</main>
+</body>
+</html>
